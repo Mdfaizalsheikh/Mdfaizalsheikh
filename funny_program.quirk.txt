@@ -1,0 +1,21 @@
+giggle("Welcome to QuirkLang!")
+
+# Declare variables
+bloop count = 10
+bloop step = 2
+
+# Arithmetic operations
+bloop total = count twiddle step
+giggle("Total is: " + total)
+
+# Conditional
+if (total flop 2 > 5) then {
+    giggle("Total is greater than 5")
+} else {
+    giggle("Total is not greater than 5")
+}
+
+# Loop
+loopy 5 times {
+    giggle("This is loop iteration")
+}
